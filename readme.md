@@ -50,18 +50,17 @@ Description:
 This endpoint retrieves a list of trending keywords from Detik.
 
 Example Request:
-bash
-Copy code
+
 curl http://localhost:8080/trending_keywords
 Example Response:
-json
-Copy code
+```bash
 [
   "golang",
   "cloud computing",
   "artificial intelligence",
   "cryptocurrency"
 ]
+```
 2. /scrape [GET]
 Description:
 This endpoint scrapes search results for a specific keyword, including title, URL, date, description, content, and image.
@@ -69,13 +68,12 @@ This endpoint scrapes search results for a specific keyword, including title, UR
 Query Parameters:
 keyword (required): The search term to scrape.
 pages (optional): The number of pages to scrape (default is 1).
+
 Example Request:
-bash
-Copy code
+```bash
 curl "http://localhost:8080/scrape?keyword=golang&pages=3"
 Example Response:
-json
-Copy code
+
 [
   {
     "title": "Exploring the Latest in Golang Development",
@@ -94,3 +92,4 @@ Copy code
     "img_url": "https://www.detik.com/images/golang_backend_future.jpg"
   }
 ]
+```
