@@ -28,7 +28,7 @@ Clone the repository to your local machine:
 
 ### Step 2: Install Dependencies
 
-git clone https://github.com/yourusername/detikscraper.git
+git clone 
 cd detikscraper
 
 Step 2: Install Dependencies
