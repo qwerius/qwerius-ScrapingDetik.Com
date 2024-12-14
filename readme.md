@@ -71,25 +71,19 @@ pages (optional): The number of pages to scrape (default is 1).
 
 Example Request:
 ```bash
-curl "http://localhost:8080/scrape?keyword=golang&pages=3"
+curl "http://localhost:8080/scrape?keyword=desa&pages=3"
 Example Response:
 
 [
   {
-    "title": "Exploring the Latest in Golang Development",
-    "url": "https://www.detik.com/technology/golang-development",
-    "date": "2024-12-14",
-    "desc": "Golang has seen significant growth in the developer community...",
-    "content": "In this article, we explore the latest updates in Golang...",
-    "img_url": "https://www.detik.com/images/golang_thumbnail.jpg"
-  },
-  {
-    "title": "Why Golang is the Future of Backend Development",
-    "url": "https://www.detik.com/technology/golang-future",
-    "date": "2024-12-15",
-    "desc": "Golang continues to emerge as a leading language in backend...",
-    "content": "With new features and growing community support, Golang is set to dominate backend development...",
-    "img_url": "https://www.detik.com/images/golang_backend_future.jpg"
-  }
+        "title": "Warga Dua Desa Bentrok Imbas Penikaman Pemuda di Bima",
+        "url": "https://www.detik.com/bali/hukum-dan-kriminal/d-7685628/warga-dua-desa-bentrok-imbas-penikaman-pemuda-di-bima",
+        "date": "Jumat, 13 Des 2024 19:23 WIB",
+        "desc": "Bentrokan antara warga Desa Samili dan Dadibou di Bima dipicu penikaman. Polisi amankan delapan orang, tiga ditahan. Situasi kini kondusif.",
+        "content": "Warga Desa Samili dan Desa Dadibou, Kecamatan Woha, Kabupaten Bima, Nusa Tenggara Barat (NTB), bentrok. Bentrokan terjadi imbas penikaman seorang pemuda Desa Samili beberapa waktu lalu.\n\"Warga dua desa saling serang karena saling provokasi. Namun, sejauh ini sudah kondusif,\" kata Kepala Bagian Operasi (Kabag Ops) Polres Bima, AKP Iwan Sugianto, kepada detikBali, Jumat (13/12/2024).\nIwan mengatakan warga dua desa saling serang pada Kamis (12/12/2024). Hal itu dipicu meninggalnya, Rahmansyah (20). Warga Desa Samili itu meninggal diduga ditikam sejumlah warga Dadibou, Sabtu (7/12/2024).\nPolisi langsung mengamankan delapan orang dari kasus penikaman itu. Setelah diklarifikasi dan diperiksa, hanya tiga orang yang ditahan dan diproses hukum. Sedangkan lima orang lainnya dilepas.\n\"Penahanan tiga orang dan dilepas lima orang ini tidak diterima oleh pihak keluarga korban dan warga. Mereka ingin delapan orang yang diamankan ditahan semuanya,\" kata Iwan.\nIwan menegaskan Polres Bima tidak bisa menahan semua orang tersebut. Mengingat, hasil klarifikasi dan pemeriksaan, hanya lima orang dinyatakan tak terlibat dalam kasus penikaman. Selain itu, keterlibatan mereka juga tidak cukup bukti.\n\"Karena persoalan ini, akhirnya sebagian warga terprovokasi dan saling serang,\" beber Iwan.\nIwan mengimbau dua warga desa, terutama keluarga korban, agar menahan diri. Polisi sudah maksimal untuk menuntaskan persoalan kasus penikaman. Buktinya, dengan bergerak cepat menangkap terduga pelaku.\n\"Kami imbau warga tidak terpancing dan mudah terprovokasi. Percayakan kasus ditangani polisi, apalagi terduga pelakunya sudah ditangkap,\" jelas Iwan.",
+        "img_url": "https://akcdn.detik.net.id/visual/2015/11/18/12cde27d-e92e-46a3-bb52-710f6d9c547c_43.jpg?w=250&q=90"
+    }, {
+        ...
+    }
 ]
 ```
