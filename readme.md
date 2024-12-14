@@ -29,21 +29,23 @@ Clone the repository to your local machine:
 ### Step 2: Install Dependencies
 
 git clone 
+```bash
 cd detikscraper
+```
 
 Step 2: Install Dependencies
 Run the following commands to install the required dependencies:
 
 ### Step 3: Run the Go Server
-
+```bash
 go get -u github.com/PuerkitoBio/goquery
 go get -u github.com/gorilla/mux
-
+```
 Step 3: Run the Go Server
 To run the Go server locally, execute:
-
+```bash
 go run main.go
-
+```
 ### API Usage
 1. /trending_keywords [GET]
 Description:
